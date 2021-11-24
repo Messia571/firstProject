@@ -252,3 +252,73 @@ body{
     padding-top: 40px;
     padding-bottom: 18px;
 }
+
+.square-image{
+    width: 838px;
+}
+.second-box{
+    height: 100%;
+    width: 100%;
+}
+
+.computer-image{
+    position:absolute;
+    padding-top: 96px;
+    padding-left: 40px;
+    }
+.purple-square{
+    padding-right: 139px;
+}
+
+.explanations-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    color: white;
+
+}
+
+.blok-configurations{
+    display: flex;
+    flex-direction: row;
+    width: 1301px;
+    height: 542px;
+    padding-left: 312px;
+    padding-top: 200px;
+}
+
+.title-configuration{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    color: white;
+    padding-top: 69px;
+    padding-bottom: 45px;
+}
+
+.third-box{
+    width: 1315px;
+    height: 552px;
+    padding-top: 200px;
+    padding-left: 293px;
+}
+
+.Ellipse{
+    padding-left: 31.22px;
+    float: left;
+    padding-right: 20px;
+}
+
+.third-box-first-text{
+    color: white;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 140%;
+    padding-top: 31px;
+}
