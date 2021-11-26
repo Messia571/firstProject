@@ -46,7 +46,6 @@ body{
 .nav-container nav{
     cursor: pointer;
     color: white;
-    font-family:'Roboto';
     font-style:normal;
     font-weight:normal;
     font-size:16px;
@@ -72,7 +71,6 @@ body{
     border: none;
     background: linear-gradient(90deg, #C89AFC, #7C6AFA);
     color: white;
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -99,7 +97,6 @@ body{
     width: 920px;
     height: 180px;
     color: white;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 64px;
@@ -128,7 +125,6 @@ body{
 }
 
 .timer-text{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -156,7 +152,6 @@ body{
     border: none;
     background: linear-gradient(90deg, #DF5950, #451046);
     color: white;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -257,8 +252,12 @@ body{
     width: 838px;
 }
 .second-box{
-    height: 100%;
-    width: 100%;
+    height: 542px;
+    width: 1301px;
+    padding-left: 312px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: row;
 }
 
 .computer-image{
@@ -267,30 +266,25 @@ body{
     padding-left: 40px;
     }
 .purple-square{
-    padding-right: 139px;
+
 }
 
 .explanations-text{
-    font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
     color: white;
-
 }
 
 .blok-configurations{
     display: flex;
     flex-direction: row;
-    width: 1301px;
-    height: 542px;
-    padding-left: 312px;
-    padding-top: 200px;
+    width: 526px;
+    padding-right: 139px;
 }
 
 .title-configuration{
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
@@ -305,20 +299,199 @@ body{
     height: 552px;
     padding-top: 200px;
     padding-left: 293px;
+
 }
 
-.Ellipse{
+.logo-and-text{
+    display: flex;
+    flex-direction: row;
+}
+.Ellipse {
     padding-left: 31.22px;
     float: left;
     padding-right: 20px;
+    width: 95.78px;
 }
 
-.third-box-first-text{
+.third-box-title-text{
     color: white;
-    font-family: "Roboto";
     font-style: normal;
     font-weight: bold;
     font-size: 48px;
-    line-height: 140%;
     padding-top: 31px;
+    height: 67px;
+    width: 351px;
+}
+.third-box-first-text{
+    width: 411px;
+    height: 52px;
+    padding-left: 24px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: grey;
+    padding-top: 49px;
+}
+
+.percents-configurations{
+    width: 1278px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.percents1{
+    font-size: 36px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-left: 19px;
+    padding-right: 235px;
+}
+.percents2{
+    font-size: 36px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-right: 256px;
+}
+.percents3{
+    font-size: 36px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-right: 256px;
+}
+.percents4{
+    font-size: 36px;
+    color: white;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-right: 245px;
+}
+
+.purple-bloks{
+    width: 1296px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 19px;
+}
+
+.first-blok{
+    width: 324px;
+    height: 80px;
+    background: linear-gradient(90deg, #C89AFC ,#7C6AFA);
+}
+
+.second-blok{
+    width: 324px;
+    height: 60px;
+    background: linear-gradient(270deg, #C89AFC ,#7C6AFA);
+}
+
+.third-blok{
+    width: 324px;
+    height: 30px;
+    background: linear-gradient(90deg, #C89AFC ,#7C6AFA);
+}
+
+.forth-blok{
+    width: 324px;
+    height: 10px;
+    background: linear-gradient(270deg, #C89AFC ,#7C6AFA);
+}
+
+.third-box-second-text{
+    padding-left: 19px;
+    display: flex;
+    flex-direction: row;
+    width: 1278px;
+    justify-content: space-between;
+}
+
+.text-configuration-third-box{
+    font-size:14px ;
+    color: grey;
+    width: 306px;
+    height: 88px;
+    padding-top: 35px;
+    line-height: 22.4px;
+}
+
+.forth-blok-configuration{
+    padding-left: 312px;
+    padding-top: 200px;
+    width: 1296px;
+    height: 549px;
+}
+.forth-container{
+    display: flex;
+    flex-direction: row;
+    width: 1296px;
+    height: 549px;
+    justify-content: space-between;
+}
+.forth-title{
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 67px;
+    text-align: center;
+    color: white;
+    width: 810px;
+    height: 67px;
+    padding-left: 243px;
+}
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 120px;
+}
+.title-forth1{
+
+    color: white;
+    padding-top: 60px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.title-forth2{
+
+    color: white;
+    padding-top: 60px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.title-forth3{
+
+    color: white;
+    padding-top: 60px;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: center;
+
 }
